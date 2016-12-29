@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 def sum(a,b):
    return a+b
 def sub(a,b):
@@ -6,7 +7,7 @@ def sub(a,b):
   
 def Main():
   print("Hello World")
-  sum(10,20)
+  print(sum(10,20))
   exit(0)
   
 if __name__ == '__main__':
